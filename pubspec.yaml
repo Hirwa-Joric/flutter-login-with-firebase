@@ -25,14 +25,16 @@ dev_dependencies:
   flutter_lints: ^3.0.0
 
 flutter_native_splash:
-  color: "#f7f6f1"
-  color_dark: "#272727"
+  color: "#ffffff"
   image: assets/images/Burger.png
+  branding: assets/images/Burger.png
+  color_dark: "#121212"
   image_dark: assets/images/Burger.png
+  branding_dark: assets/images/Burger.png
 
   android_12:
     image: assets/images/Burger.png
-    icon_background_color: "#f7f6f1"
+    icon_background_color: "#ffffff"
     image_dark: assets/images/Burger.png
     icon_background_color_dark: "#121212"
 
