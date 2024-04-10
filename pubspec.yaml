@@ -1,23 +1,18 @@
 name: flutter_login
 description: "A new Flutter project."
-
-
-publish_to: 'none' 
-
-
+publish_to: 'none'
 version: 1.0.0+1
 
 environment:
-  sdk: '>=3.3.1 <4.0.0'
-
+  sdk: '>=2.12.0 <3.0.0'
 
 dependencies:
   flutter:
     sdk: flutter
-
   cupertino_icons: ^1.0.6
   google_fonts: ^6.2.1
   flutter_native_splash: ^2.3.13
+  get: ^4.6.6
 
 dev_dependencies:
   flutter_test:
@@ -31,7 +26,6 @@ flutter_native_splash:
   color_dark: "#121212"
   image_dark: assets/images/Burger.png
   branding_dark: assets/images/Burger.png
-
   android_12:
     image: assets/images/Burger.png
     icon_background_color: "#ffffff"
@@ -40,19 +34,8 @@ flutter_native_splash:
 
 
 
-assets:
-  - assets/images/
-
-
-
-
-
 flutter:
-
-  
-  
-  
   uses-material-design: true
-
-  
-  
+  assets:
+    - assets/images/top.png
+    - assets/images/screen.png
